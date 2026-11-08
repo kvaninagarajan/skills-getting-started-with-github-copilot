@@ -74,6 +74,9 @@ protection, and appropriate data-retention controls before exposing it publicly.
 
 ### Validate
 
+Install the Python test dependencies first with
+`python -m pip install -r requirements.txt pytest`.
+
 ```bash
 dotnet build api/AddressMapper.Api.csproj
 node --check web/app.js
