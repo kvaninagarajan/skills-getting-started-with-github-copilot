@@ -40,3 +40,11 @@ Thumbs.db
 .actrc*
 
 __pycache__/
+
+# .NET build output and local address data
+**/bin/
+**/obj/
+*.db
+*.db-shm
+*.db-wal
+.pytest_cache/
